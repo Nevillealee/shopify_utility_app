@@ -33,3 +33,5 @@ yarn-debug.log*
 # Ignore rvm gemset files
 .ruby-gemset
 .rvmrc
+
+/config/database.yml
