@@ -1,3 +1,5 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  # the hash '#' symbol represents a method. This calls
+  # the index method of the pages class(controller)
+  root to: 'pages#index'
 end
